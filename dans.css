@@ -1,0 +1,28 @@
+::selection {
+  background: deeppink;
+  color: cornsilk;
+}
+
+@media (prefers-color-scheme: dark) {
+  .reflect {
+    background: indigo;
+    color: turquoise;
+  }
+
+  .absorb {
+    background: turquoise;
+    color: indigo;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .reflect {
+    background: turquoise;
+    color: indigo;
+  }
+
+  .absorb {
+    background: indigo;
+    color: turquoise;
+  }
+}
